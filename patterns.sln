@@ -9,25 +9,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Structural", "2. Structu
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Behavioral", "3. Behavioral", "{AB8F7AA1-3767-4666-8393-E20F5B30BC5F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{FC41F458-7B7B-4448-ACAF-AB837314BCCA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "src\AbstractFactory\AbstractFactory.csproj", "{FC41F458-7B7B-4448-ACAF-AB837314BCCA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory.RealWorld", "AbstractFactory.RealWorld\AbstractFactory.RealWorld.csproj", "{5C73DB38-E5C3-497A-8660-9FCAC2F903E0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory.RealWorld", "src\AbstractFactory.RealWorld\AbstractFactory.RealWorld.csproj", "{5C73DB38-E5C3-497A-8660-9FCAC2F903E0}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "Builder\Builder.csproj", "{3C231C82-A7C4-4742-A03F-13B347BA5259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder", "src\Builder\Builder.csproj", "{3C231C82-A7C4-4742-A03F-13B347BA5259}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder.RealWorld", "Builder.RealWorld\Builder.RealWorld.csproj", "{74BC419B-B192-4354-9F93-892F5093E6A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder.RealWorld", "src\Builder.RealWorld\Builder.RealWorld.csproj", "{74BC419B-B192-4354-9F93-892F5093E6A6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod.RealWorld", "FactoryMethod.RealWorld\FactoryMethod.RealWorld.csproj", "{800362C9-E4C0-40CD-89DD-3416703A9F68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod.RealWorld", "src\FactoryMethod.RealWorld\FactoryMethod.RealWorld.csproj", "{800362C9-E4C0-40CD-89DD-3416703A9F68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{26D3D73E-2599-45EE-B50F-86E84EC43066}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "src\FactoryMethod\FactoryMethod.csproj", "{26D3D73E-2599-45EE-B50F-86E84EC43066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{0F316489-8C36-4774-B564-2182F9D04ADE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "src\Prototype\Prototype.csproj", "{0F316489-8C36-4774-B564-2182F9D04ADE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype.RealWorld", "Prototype.RealWorld\Prototype.RealWorld.csproj", "{85473F2E-63C9-4319-99C0-EA38D19FA312}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype.RealWorld", "src\Prototype.RealWorld\Prototype.RealWorld.csproj", "{85473F2E-63C9-4319-99C0-EA38D19FA312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{C65E1352-9EA5-43AA-9C51-061AA6501063}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "src\Singleton\Singleton.csproj", "{C65E1352-9EA5-43AA-9C51-061AA6501063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.RealWorld", "Singleton.RealWorld\Singleton.RealWorld.csproj", "{1DA7514E-CF7A-4B3E-A8EE-F7C0F89ACDCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.RealWorld", "src\Singleton.RealWorld\Singleton.RealWorld.csproj", "{1DA7514E-CF7A-4B3E-A8EE-F7C0F89ACDCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
