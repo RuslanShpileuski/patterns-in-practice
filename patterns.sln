@@ -19,15 +19,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Builder.RealWorld", "src\Bu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod.RealWorld", "src\FactoryMethod.RealWorld\FactoryMethod.RealWorld.csproj", "{800362C9-E4C0-40CD-89DD-3416703A9F68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "src\FactoryMethod\FactoryMethod.csproj", "{26D3D73E-2599-45EE-B50F-86E84EC43066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "src\FactoryMethod\FactoryMethod.csproj", "{26D3D73E-2599-45EE-B50F-86E84EC43066}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "src\Prototype\Prototype.csproj", "{0F316489-8C36-4774-B564-2182F9D04ADE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "src\Prototype\Prototype.csproj", "{0F316489-8C36-4774-B564-2182F9D04ADE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype.RealWorld", "src\Prototype.RealWorld\Prototype.RealWorld.csproj", "{85473F2E-63C9-4319-99C0-EA38D19FA312}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype.RealWorld", "src\Prototype.RealWorld\Prototype.RealWorld.csproj", "{85473F2E-63C9-4319-99C0-EA38D19FA312}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "src\Singleton\Singleton.csproj", "{C65E1352-9EA5-43AA-9C51-061AA6501063}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "src\Singleton\Singleton.csproj", "{C65E1352-9EA5-43AA-9C51-061AA6501063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton.RealWorld", "src\Singleton.RealWorld\Singleton.RealWorld.csproj", "{1DA7514E-CF7A-4B3E-A8EE-F7C0F89ACDCE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton.RealWorld", "src\Singleton.RealWorld\Singleton.RealWorld.csproj", "{1DA7514E-CF7A-4B3E-A8EE-F7C0F89ACDCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{18D600B3-DBDD-4CC1-92B4-6556CBC81D97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter.RealWorld", "Adapter.RealWorld\Adapter.RealWorld.csproj", "{E37A148B-BB2E-485B-B8A0-F4C686E1D7D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Bridge\Bridge.csproj", "{DC9631DB-1902-4EEE-BCDE-FDB0604B5CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge.RealWorld", "Bridge.RealWorld\Bridge.RealWorld.csproj", "{6399A33F-3C87-4C79-9806-268A5CDA4D0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +83,22 @@ Global
 		{1DA7514E-CF7A-4B3E-A8EE-F7C0F89ACDCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1DA7514E-CF7A-4B3E-A8EE-F7C0F89ACDCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1DA7514E-CF7A-4B3E-A8EE-F7C0F89ACDCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18D600B3-DBDD-4CC1-92B4-6556CBC81D97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18D600B3-DBDD-4CC1-92B4-6556CBC81D97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18D600B3-DBDD-4CC1-92B4-6556CBC81D97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18D600B3-DBDD-4CC1-92B4-6556CBC81D97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37A148B-BB2E-485B-B8A0-F4C686E1D7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37A148B-BB2E-485B-B8A0-F4C686E1D7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37A148B-BB2E-485B-B8A0-F4C686E1D7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37A148B-BB2E-485B-B8A0-F4C686E1D7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC9631DB-1902-4EEE-BCDE-FDB0604B5CDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC9631DB-1902-4EEE-BCDE-FDB0604B5CDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC9631DB-1902-4EEE-BCDE-FDB0604B5CDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC9631DB-1902-4EEE-BCDE-FDB0604B5CDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6399A33F-3C87-4C79-9806-268A5CDA4D0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6399A33F-3C87-4C79-9806-268A5CDA4D0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6399A33F-3C87-4C79-9806-268A5CDA4D0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6399A33F-3C87-4C79-9806-268A5CDA4D0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +114,10 @@ Global
 		{85473F2E-63C9-4319-99C0-EA38D19FA312} = {16D07E54-8B0B-4F44-8FEC-042D515F0DDB}
 		{C65E1352-9EA5-43AA-9C51-061AA6501063} = {16D07E54-8B0B-4F44-8FEC-042D515F0DDB}
 		{1DA7514E-CF7A-4B3E-A8EE-F7C0F89ACDCE} = {16D07E54-8B0B-4F44-8FEC-042D515F0DDB}
+		{18D600B3-DBDD-4CC1-92B4-6556CBC81D97} = {38CAF5FC-C0F0-4234-AD10-E91801D3D52B}
+		{E37A148B-BB2E-485B-B8A0-F4C686E1D7D2} = {38CAF5FC-C0F0-4234-AD10-E91801D3D52B}
+		{DC9631DB-1902-4EEE-BCDE-FDB0604B5CDD} = {38CAF5FC-C0F0-4234-AD10-E91801D3D52B}
+		{6399A33F-3C87-4C79-9806-268A5CDA4D0F} = {38CAF5FC-C0F0-4234-AD10-E91801D3D52B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FC7F26AD-CA56-4551-B4D9-600932EEF93D}

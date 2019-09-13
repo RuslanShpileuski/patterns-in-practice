@@ -3,10 +3,10 @@
 namespace AbstractFactory.RealWorld
 {
 	/// <summary>
-	/// MainApp startup class for Real-World
+	/// Program startup class for Real-World
 	/// Abstract Factory Design Pattern.
 	/// </summary>
-	class MainApp
+	class Program
 	{
 		/// <summary>
 		/// Entry point into console application.
